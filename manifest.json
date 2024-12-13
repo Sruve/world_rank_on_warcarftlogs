@@ -8,10 +8,10 @@
         "scripting"
     ],
     "host_permissions": [
-        "https://www.warcraftlogs.com/*"
+        "https://*.warcraftlogs.com/*"
     ],
     "content_scripts": [{
-        "matches": ["https://www.warcraftlogs.com/zone/rankings*"],
+        "matches": ["https://*.warcraftlogs.com/zone/rankings*"],
         "js": ["content.js"]
     }]
 }
