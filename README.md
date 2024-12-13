@@ -2,21 +2,29 @@
 
 This custom Chrome extension is made by a fan, for fans, with no intention of profit. If you have any ideas for improvements, contributions are more than welcome!
 
-1. **Go to the Extensions page**:
+1. **Download Project**
+
+   - Click on <> Code -> Download Zip
+
+2. **Unpack Project**
+
+   - Extract the zip. This route will be used later.
+
+3. **Go to the Extensions page**:
 
    - Type`chrome://extensions/` in the browser's address bar.
 
-2. **Enable Developer Mode**:
+4. **Enable Developer Mode**:
 
    - In the top-right corner of the Extensions page, toggle the **Developer mode** switch to **ON**.
 
-3. **Load the github project**:
+5. **Load the github project**:
 
    - Click on the **Load unpacked** button.
-   - Navigate to the folder where you downloaded the extension files.
+   - Navigate to the folder where you downloaded the github project.
    - Select the folder and click **Select Folder**.
 
-4. **Verify the installation**:
+6. **Verify the installation**:
    - Once installed, your custom extension should appear in the list of extensions on the Extensions page (`chrome://extensions/`).
    - You should also see the extension’s icon appear in the Chrome toolbar.
 
