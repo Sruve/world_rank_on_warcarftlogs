@@ -5,11 +5,15 @@
     "description": "Show Guild World Ranks on Warcraftlogs Rankings page",
     "permissions": [
         "storage",
+        "contextMenus",
         "scripting"
     ],
     "host_permissions": [
         "https://*.warcraftlogs.com/*"
     ],
+    "background": {
+        "service_worker": "background.js"
+    },
     "content_scripts": [{
         "matches": ["https://*.warcraftlogs.com/zone/rankings*"],
         "js": ["content.js"]
